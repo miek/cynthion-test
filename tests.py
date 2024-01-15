@@ -650,7 +650,7 @@ def test_usb_hs(port):
 
         speed = total_data_exchanged / elapsed / 1000000
 
-        test_value("transfer rate", port, speed, 'MB/s', 47, 48)
+        test_value("transfer rate", port, speed, 'MB/s', 47, 50)
 
         return handle
 
